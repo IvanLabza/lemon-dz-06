@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+.hero-title {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+.head-link{
+    padding: 16px 24px;
+    font-size: 13px;
+}
+
+.hero-text{
+    margin-bottom: 32px;
+}
+
+.head-list-link{
+    font-size: 23px;
+}
+}
