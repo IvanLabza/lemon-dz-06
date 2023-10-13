@@ -1,3 +1,65 @@
 @media screen and (min-width: 1188px) {
+.bg{
+    padding: 95px;
+}
 
+.head-tel-menu{
+    display: none;
+}
+
+.head-nav{
+    width: unset;
+    height: unset;
+    position: static;
+    visibility: visible;
+    background-color: transparent;
+    transform: none;
+    
+}
+
+.head-tel-menu-close{
+    display: none;
+}
+
+.hero{
+    padding-top: 211px;
+    padding-bottom: 161px;
+}
+
+.hero-title {
+    margin-bottom: 32px;
+}
+
+.hero-text{
+    margin-bottom: 80px;
+}
+
+.hero-link{
+    margin-bottom: 64px;
+}
+
+
+.head-list{
+    margin-top: 0;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+}
+
+.head-list-link{
+    color: #A0A3A7;
+    font-size: 14px;
+}
+.head-link{
+    padding: 16px 24px;
+    font-size: 14px;
+}
+
+.head-flex{
+    gap: 0;
+}
+
+.svg-flex{
+    padding-right: 123px;
+}
 }

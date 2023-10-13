@@ -1,8 +1,9 @@
 .bg {
+    min-width: 300px;
     background: linear-gradient(125deg, #FC3F5F 0%, #7D61FF 100.32%);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 75px 20px;
+    padding: 85px 15px;
 }
 .conteiner {
     max-width: 1346px;
@@ -155,4 +156,10 @@ fill: orange;
     display: flex;
     gap: 32px;
     justify-content: center;
+}
+
+@media screen and (min-width: 641px){
+    .bg{
+        padding: 125px 35px;
+    }
 }
